@@ -12,6 +12,11 @@ function calculatePension() {
         return;
     }
 
+    if (pensionPercentage > 50) {
+        alert("Pension contribution cannot be over 50 percent of your wage.");
+        return;
+    }
+
     const pensionAmount = (basePay * pensionPercentage) / 100;
     const remainingPay = basePay - pensionAmount;
 
