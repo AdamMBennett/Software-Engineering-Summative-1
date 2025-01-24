@@ -23,5 +23,15 @@ The aim of this project is to provide colleagues with an easy to use tool which 
 - Front End: HTML, CSS, JavaScript
 - Hosting: The app will be hosted in github pages for easy deployment and accessibility.
 
+## App Design
+The a basic design for the MVP version of the app has been designed in figma and is available to access here: https://www.figma.com/design/vprSkcRq0vste0Yc4irlSB/Figma-basics?node-id=601-10&t=TojOR6uLxKWOa0AM-1
+
+The design can also be seen in figure 1 below. It demonstrates the intitial page seen when the dashboard is loaded, the two scenarios where an error message is displayed due to failed entries and what the page should look like after the correct numbers are entered.
+
+![image](https://github.com/user-attachments/assets/022a6860-4978-44c7-8693-9176084ad7e9).
+
+## Project Management
+
+
 
 
