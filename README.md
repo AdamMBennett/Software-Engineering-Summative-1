@@ -20,8 +20,8 @@ The aim of this project is to provide colleagues with an easy to use tool which 
     - The pay entered is below 0.
 
 ### Technology Stack:
-Front End: HTML, CSS, JavaScript
-Hosting: The app will be hosted in github pages for easy deployment and accessibility.
+- Front End: HTML, CSS, JavaScript
+- Hosting: The app will be hosted in github pages for easy deployment and accessibility.
 
 
 
