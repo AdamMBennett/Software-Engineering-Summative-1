@@ -231,8 +231,4 @@ Following the initial release of the MVP there will be future iterations of the 
 ## **Evaluation**
 
 
-By following these updated guidelines, employees and developers can easily use, maintain, and test the Pension Contribution Calculator App.
-
-
-
 
