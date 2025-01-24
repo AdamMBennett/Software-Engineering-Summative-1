@@ -1,5 +1,7 @@
 # Software Engineering - Summative 1
 
+---
+
 ## Project Proposal - Pension Cotribution Calculator
 
 ### Overview
@@ -23,6 +25,8 @@ The aim of this project is to provide colleagues with an easy to use tool which 
 - Front End: HTML, CSS, JavaScript
 - Hosting: The app will be hosted in github pages for easy deployment and accessibility.
 
+---
+
 ## App Design
 The a basic design for the MVP version of the app has been designed in figma and is available to access here: https://www.figma.com/design/vprSkcRq0vste0Yc4irlSB/Figma-basics?node-id=601-10&t=TojOR6uLxKWOa0AM-1
 
@@ -30,11 +34,34 @@ The design can also be seen in figure 1 below. It demonstrates the intitial page
 
 ![image](https://github.com/user-attachments/assets/022a6860-4978-44c7-8693-9176084ad7e9).
 
-## Project Management
 
+---
 
+#### **Project Management**
+To manage this project effectively, we used the following tools and techniques:
 
+1. **GitHub Issues**:
+   - Each feature or task was tracked using GitHub Issues.
+   - Example issues:
+     - "Implement pension calculation logic"
+     - "Write Jest test cases for validation"
+     - "Style the app for responsiveness."
+   - Each issue was assigned a priority and linked to a specific branch.
 
+2. **Branches and Pull Requests**:
+   - Features and fixes were developed in separate branches (e.g., `feature/pension-calculation`, `test/validation-tests`).
+   - Pull requests were used to review and merge changes into the main branch.
+
+3. **GitHub Projects**:
+   - A GitHub Project board was set up to organize tasks into columns such as "To Do," "In Progress," and "Done."
+   - This provided a clear visual representation of progress.
+
+4. **Documentation Updates**:
+   - Documentation was iteratively updated through linked issues and pull requests.
+
+By using these project management tools, we ensured smooth collaboration, clear progress tracking, and high-quality deliverables.
+
+---
 
 ### User Documentation for Pension Contribution Calculator App
 
