@@ -43,21 +43,22 @@ To manage this project effectively, we used the following tools and techniques:
 1. **GitHub Issues**:
    - Each feature or task was tracked using GitHub Issues.
    - Example issues:
-     - "Implement pension calculation logic"
-     - "Write Jest test cases for validation"
-     - "Style the app for responsiveness."
-   - Each issue was assigned a priority and linked to a specific branch.
+     - "Create App design in Figma"
+     - "Calculate Button"
+     - "Entry Validation"
 
-2. **Branches and Pull Requests**:
-   - Features and fixes were developed in separate branches (e.g., `feature/pension-calculation`, `test/validation-tests`).
-   - Pull requests were used to review and merge changes into the main branch.
+![image](https://github.com/user-attachments/assets/f38f6b28-84dc-438b-9054-f8642d325247)
 
-3. **GitHub Projects**:
-   - A GitHub Project board was set up to organize tasks into columns such as "To Do," "In Progress," and "Done."
+2. **GitHub Projects**:
+   - A GitHub Project board was set up to organise tasks into the folllowing columns "Backlog", "Rejected", "In Progress," and "Done."
    - This provided a clear visual representation of progress.
 
-4. **Documentation Updates**:
-   - Documentation was iteratively updated through linked issues and pull requests.
+3. **Documentation Updates**:
+   - Documentation was iteratively updated throughout the issues created
+  
+4. **Backlog**:
+   - The project utilises a backlog for tasks that are needed to be done but not yet started. Following the completion of the MVP the tasks not currently     
+     completed or in the backlog are deemed not necessary for the functionality of the app but will improve the quality of the product in future iterations.
 
 By using these project management tools, we ensured smooth collaboration, clear progress tracking, and high-quality deliverables.
 
