@@ -1,5 +1,6 @@
 # Software Engineering - Summative 1
 
+## Link to app - https://adammbennett.github.io/Software-Engineering-Summative-1/
 ---
 
 ## **Project Proposal - Pension Cotribution Calculator**
@@ -226,9 +227,40 @@ Following the initial release of the MVP there will be future iterations of the 
 - Export results as PDF or Excel.
 - Enable users to compare different pension contribution scenarios.
 - Make improvements to the UI.
+  
 ![image](https://github.com/user-attachments/assets/4790aab4-fb3a-4008-9a60-4c54d3cbf793)
 
 ## **Evaluation**
 
+### 1. Functionality
+The app meets its core purpose: calculating pension contributions and remaining pay based on user inputs.
+- **Accurate Calculations**: The app accurately computes pension contributions and remaining pay using user-provided base pay and pension percentage.
+- **Validation**: The app successfully outputs an error message if there is an invalid entry made.
+- **Dynamic Feedback**: Results update dynamically upon user interaction, providing immediate feedback.
+
+### 2. Testing
+- A Jest test suite was implemented to validate core functionalities.
+- **Tests Passed**: All critical functions, including calculation logic, input validation, and error handling, passed comprehensive unit tests.
+- **Edge Cases Covered**: Special cases, such as 0% contribution, maximum allowable percentages, and malformed inputs, were tested to ensure robustness.
+
+### 3. User Experience
+- **Design**: While the app delivers on its purpose the design is simple and can see major improvement in future iterations.
+- **Responsiveness**: Fully functional on both desktop and mobile devices.
+- **Error Handling**: Clear and actionable error messages guide users in correcting mistakes without confusion.
+
+### 4. Project Management
+- **Planning**: Tasks were organised using GitHub Issues and a Project board, allowing clear tracking of progress and priorities.
+- **Branching Strategy**: In the future, new features and bug features should be developed using seperate branches.
+- **Documentation**: Iterative updates to the README ensured alignment with the app's development.
+
+### 5. Deployment
+- The app is hosted on **GitHub Pages**, providing a publicly accessible URL for users.
+- Deployment was tested to ensure all features function correctly post-deployment.
+
+### 6. Success Metrics
+- Once the MVP has been launched to the business we will be able to collect responses for further feedback and to identify potential areas for further improvement.
+
+### Conclusion
+The Pension Contribution Calculator App successfully meets its objectives and provides a reliable, user-friendly tool for employees to calculate pension contributions. With a solid foundation and robust testing in place, it is well-positioned for future enhancements based on user feedback and evolving needs.
 
 
