@@ -16,7 +16,10 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #fff; /* White text */
+    background-color: #003366; /* Dark blue background */
+    padding: 10px; /* Add some padding */
+    border-radius: 8px; /* Optional: rounded corners */
 }
 
 label {
