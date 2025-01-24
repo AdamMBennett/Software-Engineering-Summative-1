@@ -185,7 +185,7 @@ The Pension Contribution Calculator App is a web-based tool built with HTML, CSS
 
 ---
 
-## **Testing and Deployment**
+## **Testing**
 
 The app includes a test suite written in Jest to ensure correctness and reliability. Below is a breakdown of each test:
 
