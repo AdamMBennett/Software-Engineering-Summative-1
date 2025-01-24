@@ -230,6 +230,8 @@ Following the initial release of the MVP there will be future iterations of the 
   
 ![image](https://github.com/user-attachments/assets/4790aab4-fb3a-4008-9a60-4c54d3cbf793)
 
+---
+
 ## **Evaluation**
 
 ### 1. Functionality
