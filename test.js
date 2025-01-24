@@ -1,3 +1,5 @@
+console.log("test.js loaded");
+
 const { calculatePension, validateInputs } = require('./script.js'); // Import functions
 
 describe("Pension Contribution Calculator", () => {
