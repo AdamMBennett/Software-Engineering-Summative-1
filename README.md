@@ -65,28 +65,36 @@ By using these project management tools, we ensured smooth collaboration, clear 
 
 ### User Documentation for Pension Contribution Calculator App
 
+![image](https://github.com/user-attachments/assets/7b3f7d9f-a4f3-47e2-a773-9590cd73adff)
+
+
 #### **Overview**
-The Pension Contribution Calculator App allows employees to calculate their pension contributions and remaining pay after deductions by entering their base pay and pension contribution percentage. It now includes automated tests for quality assurance.
+The Pension Contribution Calculator App allows colleagues to calculate their pension contributions and remaining pay after deducting this by entering their base pay and pension contribution percentage. It also contains automated tests to ensure the app is working successfully.
 
 ---
 
 #### **How to Use the App**
 1. **Accessing the App**:
-   - Open the app in your web browser using the provided link.
+   - Open the app in your web browser using the provided link below.
+   - https://adammbennett.github.io/Software-Engineering-Summative-1/
 
 2. **Entering Details**:
    - Locate the input fields labeled "Base Pay" and "Pension Contribution (%)."
    - Enter your **Base Pay** (e.g., 50000 for a salary of £50,000).
-   - Enter your desired **Pension Contribution Percentage** (e.g., 5 for 5%).
+   - Enter your desired **Pension Contribution Percentage** (e.g., 5 for 5%). Thed default value on this field is 5%.
 
 3. **Calculating Results**:
    - Click the "Calculate" button.
-   - The app will display:
+   - The app will then display the following:
      - **Pension Contribution Amount**: The portion of your salary going into the pension fund.
-     - **Remaining Pay After Contribution**: Your take-home pay after the pension deduction.
+     - **Remaining Pay After Contribution**: Your new pay after the pension contribution has been deducted.
 
 4. **Clearing Errors**:
    - If invalid values are entered, the app will alert you to correct them.
+   - The invlaid values are as follows:
+         - Entering no value in either field.
+         - Entering negative values in either field.
+         - Entering a value of over 50% in the pension contribution field.
 
 5. **Closing the App**:
    - Simply close the browser tab to exit the app. No data is saved for privacy.
@@ -157,6 +165,9 @@ The Pension Contribution Calculator App is a web-based tool built with HTML, CSS
    - Results are recalculated and displayed when the user clicks "Calculate."
 5. **Testing**:
    - Functions are exported for testing using Jest.
+   - To see if the tests have run enter the control panel by clicking F12 and navigate to the control centre. The following should be displayed.
+   - ![image](https://github.com/user-attachments/assets/b1a6fa2e-1dad-4310-a0e2-87539ae1a0cc)
+
 
 ---
 
@@ -170,26 +181,39 @@ The Pension Contribution Calculator App is a web-based tool built with HTML, CSS
 ---
 
 #### **Testing and Deployment**
-1. **Testing**:
-   - Jest is used to test the following scenarios:
-     - Valid and invalid input handling.
-     - Accurate calculation of pension contribution and remaining pay.
-     - Edge cases (e.g., 0% or over 50% contribution).
-   - Run tests locally with:
-     ```bash
-     npm test
-     ```
 
-2. **Deployment**:
-   - Hosted on GitHub Pages.
-   - Regularly updated and tested for compatibility.
+The app includes a test suite written in Jest to ensure correctness and reliability. Below is a breakdown of each test:
 
----
+1. **Calculates Pension Contribution Correctly**
+   - Verifies that the `calculatePension` function computes the pension contribution and remaining pay accurately.
+   - **Example Input:** Base Pay = 50000, Pension Percentage = 5.
+   - **Expected Output:** Pension Amount = 2500, Remaining Pay = 47500.
 
-#### **Future Development**
-- Adding tax deductions.
-- Export results as PDF or Excel.
-- Enable users to compare different pension contribution scenarios.
+2. **Handles 0% Pension Contribution**
+   - Ensures that the app correctly handles edge cases where the pension contribution percentage is 0.
+   - **Example Input:** Base Pay = 50000, Pension Percentage = 0.
+   - **Expected Output:** Pension Amount = 0, Remaining Pay = 50000.
+
+3. **Validates Inputs Correctly**
+   - Tests the `validateInputs` function to ensure it rejects invalid inputs like negative values, non-numeric values, or overly high percentages.
+   - **Example Inputs:**
+     - Base Pay = -50000, Pension Percentage = 5 → Invalid.
+     - Base Pay = 50000, Pension Percentage = -5 → Invalid.
+     - Base Pay = "invalid", Pension Percentage = 5 → Invalid.
+     - Base Pay = 50000, Pension Percentage = 100 → Invalid.
+
+4. **Throws Errors for Invalid Inputs**
+   - Verifies that `calculatePension` throws appropriate errors for invalid inputs.
+   - **Example Cases:**
+     - Negative Base Pay.
+     - Negative Pension Percentage.
+     - Non-numeric or malformed values.
+   - **Expected Behavior:** Function throws an error message.
+
+5. **Edge Cases for Pension Contribution**
+   - Confirms the app handles boundary cases like:
+     - Maximum allowable percentage (e.g., 50%).
+     - Smallest non-zero inputs.
 
 ---
 
