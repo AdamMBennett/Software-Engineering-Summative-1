@@ -265,4 +265,6 @@ The app meets its core purpose: calculating pension contributions and remaining 
 ### Conclusion
 The Pension Contribution Calculator App successfully meets its objectives and provides a reliable, user-friendly tool for employees to calculate pension contributions. With a solid foundation and robust testing in place, it is well-positioned for future enhancements based on user feedback and evolving needs.
 
+## **Key Contacts**
 
+#### To report any issues or give feedback on the app please email bennett.ada@northeastern.edu.
