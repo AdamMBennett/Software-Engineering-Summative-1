@@ -178,10 +178,13 @@ The Pension Contribution Calculator App is a web-based tool built with HTML, CSS
   - Non-numeric values are entered.
   - Negative or zero values are provided.
   - Pension percentage exceeds 50%.
+  - Below is an example of an error message that can be returned.
+        ![image](https://github.com/user-attachments/assets/e89e1dc3-b918-472e-a435-ea63a749e625)
+
 
 ---
 
-#### **Testing and Deployment**
+## **Testing and Deployment**
 
 The app includes a test suite written in Jest to ensure correctness and reliability. Below is a breakdown of each test:
 
@@ -217,6 +220,16 @@ The app includes a test suite written in Jest to ensure correctness and reliabil
      - Smallest non-zero inputs.
 
 ---
+## **Future Developments**
+Following the initial release of the MVP there will be future iterations of the dashboard released that will involve the following developments that are currently in the backlog:
+- Adding tax deductions.
+- Export results as PDF or Excel.
+- Enable users to compare different pension contribution scenarios.
+- Make improvements to the UI.
+![image](https://github.com/user-attachments/assets/4790aab4-fb3a-4008-9a60-4c54d3cbf793)
+
+## **Evaluation**
+
 
 By following these updated guidelines, employees and developers can easily use, maintain, and test the Pension Contribution Calculator App.
 
